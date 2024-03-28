@@ -42,9 +42,9 @@ ul{
 ul img#IMGlogo {
     position: relative;
     left: -70px;
-    width: 100px;
+    width: 230px;
     height: 50;
-    top: 15px;
+    top: -50px;
 
 }
  img#mascote {
