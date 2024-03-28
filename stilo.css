@@ -1,0 +1,338 @@
+div#interface {
+    width: 900px;
+    height: 2000px;
+    background-color: #000000;
+    margin: auto;
+}
+
+header {
+    position: relative;
+    width: 900px;
+    height: 300px;
+      background-image: linear-gradient(blue,black 200px);
+}
+
+header h1{
+    position: relative;
+    left: 210px;
+    font-size: 60px;
+    color: aliceblue;
+    top: 15px;
+}
+
+img#simbolo{
+   display: flex;
+    width: 200px;
+    height: 220px;
+    left:05px;
+    top: -30px;
+    filter: drop-shadow(1px 1px 0px #dcb805);
+}
+#frase1{
+    position: relative;
+    top: -100px;
+    left: 204px;
+}
+
+img#monstro{
+    position: relative;
+    top: -160px;
+    width: 220px;
+    height: 150px;
+    left: 715px;
+}
+img#monstro2{
+    position: relative;
+    top: -160px;
+    width: 150px;
+    height: 150px;
+    left: 430px;
+}
+img#monstro3{
+    position: relative;
+    top: -150px;
+    width: 190px;
+    height: 150px;
+    left: 140px;
+}
+
+
+.h2 {
+    font-size: 18px;
+    color: aliceblue;
+}
+
+
+.time {
+    width: 50px;
+    height: 50px;
+}
+
+#raizes{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    top: -1150px;
+}
+
+#figure1 img{     
+    top: -230px;
+    left:170px;
+    margin: 20px;
+}/*-------------------------------------------------------------DIVI DOS TIMES------------*/
+
+
+/*       section 1*/
+#meio{
+   
+}
+.fly {
+   position: relative;
+    top: 0px;
+    filter: drop-shadow(6px 0px 10px #1b1a1a);
+    overflow: hidden;
+    width: 420px;
+    height: 607px;
+background-color: ;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+   position: relative;
+    margin-top: -100px;
+    width: 380px;
+    height: 487px;
+}
+
+
+#seção1 {
+    display: flex;
+    position: relative;
+    margin: auto;
+    width:890px;
+    height: 400px;
+    background-color: rgb(240, 248, 255);
+
+}
+
+#noticias{
+    position: relative;
+    left: px;
+    top: 5px;
+    border: 1px solid #000000;
+    width: 575px;
+    height: 390px;
+    background-image: url(./CAMPO.jpg);
+}
+
+#noticias fieldset{
+    color: #edd609;
+    width: 500px;
+    position: relative;
+    margin-top: 30px;
+    top: -20px;
+    left: px;
+    }
+    
+#noticias fieldset P{
+background-color: #0d09f436;
+}
+    
+    /*--------------------SEÇÃO 2 -------------------------------------------------------------*/
+
+    #seção2{
+        display: flex;
+        position: relative;
+        left: 5px;
+        margin-top: 3px;
+      width: 890px;
+      height: 400px;
+      background-image: url(./imagem\ campo\ seção\ 2.jpg);
+      }
+      .corrid{
+        text-align: center;
+        width: 280px;
+        height: 380px;
+        margin: auto;
+      }
+      #defesa h2,  h4{
+        margin-top: -15px;
+      }
+      #defesa h2{
+
+        text-shadow: black;
+        color: #ded70c;
+      }
+    
+      #desfesa p{
+        margin-top:
+          }
+       img#defesa{
+        display: flex;
+        left: 63px;
+        top: 90px;
+        width: 150px;
+        height: 150px;
+
+       }
+
+      .corrida{
+        background-color: #13131234;
+        width: 280px;
+        height: 380px;
+        margin: auto;
+      }
+      .corrida:hover{
+        background-color: #00000080;
+      }
+      #defesa1{
+        left: 0px;
+        color: #cfcbcb;
+      }
+
+      #defesa1 h3{
+        position: relative;
+        left: -110px;
+        margin-top: -20px;
+      }
+     #defesa1 h3, p {
+        position: relative;
+        left: 10px;
+     }
+     
+    #artilheiro table{
+        background-image: image();
+        display: flexbox;   
+        margin: auto;
+        position: relative;
+        top: 1px;
+        
+        
+    }  
+    #artilheiro table th,tr,p{
+        margin-top: 10px;
+        text-align: left;
+       
+         
+     }
+     #parada table{
+        
+        display: flexbox;   
+         margin: auto;
+         position: relative;
+         
+         
+     }
+     #parada table th,tr p{
+        margin-top: 10px;
+        text-align: left; 
+        color: rgb(238, 241, 9);            
+     }
+
+
+     #artilheiro h3{
+        color: #cfcbcb;
+        display: flex;
+        justify-content: center;
+     }
+     #parada h3{
+        position: relative;
+        color: #c9c5c5;
+        display: flex;
+        justify-content: center;
+        
+     }
+     #imgartilha {
+        position: relative;
+        top: -60px;
+        width: 280px;
+         z-index: 0;
+     }
+     /*-------------------------------------time------------------------------------------*/
+
+     div#time{
+        width: 890px;
+        height: 500px;
+     }
+     
+     img#elenco2{
+        display: flex;
+        width: 890px;
+        height: 450px;
+        top: 130px;
+        left: 5px;
+     }
+
+     .elenco1 {
+        position: relative;
+         top: 0px;
+         filter: drop-shadow(6px 0px 10px #1b1a1a);
+         overflow: hidden;
+         width: 890px;
+         height: 500px;
+     
+     }
+     
+     .container2{
+         position: absolute;
+         display: flex;
+         transition: 0.7s ease-in-out;
+         transform: translateX(0);
+     }
+     
+     img{
+        position: relative;
+         margin-top: -100px;
+         width: 380px;
+         height: 487px;
+     }
+
+     /*--------------------SEÇÃO 3*-------------------------------------------------------*/
+     #seção3{
+    position: relative;
+    left: 5px;
+    margin-top: 3px;
+    background-color: #c9c5c5; 
+    width: 890PX;
+    height: 350PX;
+    }
+    img#boavitória{
+        display: flex;
+        left: 700px;
+        width: 150px;
+        height: 150px;
+        top: -10px;
+    }
+    fieldset p{
+        display: flex;
+        top: 10px;
+        margin-top: 1px;
+        text
+    }
+    .fildset{
+        height: 150px;
+    }
+    #fildset1{
+        color: #c9c5c5;
+background-image: url(./fildset1.jpg);
+    }
+    #fildset2{
+        background-image: url(./fildset2.jpg);
+    }
+    legend{
+        color: #000;
+        background-color: #f4f1f1;
+    }
+    img#fildset2{
+        display: flex;
+        left: 720px;
+        width: 120px;
+        height: 120px;
+        top: -5px;
+    }

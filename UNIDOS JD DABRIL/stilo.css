@@ -1,0 +1,352 @@
+div#interface {
+    position: relative;
+    margin: auto;
+background-color: black;
+border: 1px solid gold;
+    width: 900px;
+    height: 1300px;
+}
+
+
+
+
+/*---------------------------------------CABÇARIO-------------------------------------------------*/
+header{
+    position: relative;
+    background-image:url(./CABEÇALHO.jpg);
+    width: 900px;
+    height: 150px;
+    top: -20px;
+}
+header:hover {
+    background-image: url(./CABEÇALHO1.jpg);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    list-style-type:none;
+   }
+   ul h1{
+    position: relative;
+    color: rgb(36, 37, 37);
+    font-size: 65px;
+    text-align: center;
+    text-shadow:gold 1px 1px 6px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(236, 240, 12);
+  left: -20PX;
+}
+/*------------------------------------imagens do logo cabeçalho--------------------------*/
+ul img#IMGlogo {
+    margin-left: -35px;
+}
+ img#mascote {
+    position: relative;
+    left: -39px;
+    height:150px;
+    width: 100px;
+}
+/*----------------------------------------fim----------------------------------------------*/
+
+
+
+
+
+/*---------------------------------------foto time-------------------------------------------------*/
+
+div#foto1 {
+    position: relative;
+    left: 05px;
+    width: 900px;
+    height: 400px;
+}
+
+
+/*---------------------------------------section-------------------------------------------------*/
+div#section{
+    margin-top: 5px;
+    position: relative;
+    width: 900px;
+    display: flex;
+    }
+  /*--------------------------------------- SEÇão 1----------------------------------*/
+       
+   div#section #SEC1{
+    background-image: url(./imgens/SEC1.jpg);
+    
+   }
+   div#section #SEC1 h3{
+    color:rgb(250, 248, 248);
+    left: 50px;
+    top: -20px;
+   }
+   
+   div#section #SEC1 ul{
+    position: relative;
+    top: 70px;
+    display: block;
+    color: rgb(246, 249, 250);
+    left: 30px;
+   }
+   div#section #SEC1 ul h4 {
+
+font-size: 25px;
+   }
+   /*---------------------------------------fim-------------------------------------------------*/
+
+
+
+
+
+     /*-----------------------------------------------------SEÇÃO 2---------------------------------*/
+
+   div#section #SEC2{
+    background-image: url(./imgens/SEC2.jpg);
+   }
+   div#section #SEC2 img {
+    top: -165px;
+    left: 68px;
+    position: relative;
+    width: 60px;    
+   }
+
+   div#section #SEC2 img#rival {
+    top: -165px;
+    left: 98px;
+    position: relative;
+    width: 60px;    
+   }
+
+   div#section #SEC2 h3{
+    color: rgb(235, 235, 241);
+    left: 370px;
+    top: -20px;
+   }
+  div#section #SEC2 h4{
+    position: relative;
+    top: 20px;
+    text-align: center;
+   }
+   div#section #SEC2 h5{
+    color: rgb(203, 233, 199);
+    position: relative;
+    top: 148px;
+    font-size: 40PX;
+    text-align: center;
+    text-shadow:rgba(20, 20, 20, 0.836) 1px 1px 6px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+   }
+   /*-----------------------------------final--------------------------------------------------------*/
+   
+
+
+
+
+   /*---------------------------------------section3-------------------------------------------------*/
+   div#section #SEC3{
+    background-image: url(./imgens/SEC3.jpg);
+   }
+   
+   div#section #SEC3 h3{
+    color: rgb(252, 250, 250);
+    left: 650px;
+    top: -20px;
+   }
+   
+ 
+   div#craque #colaboradores h3 {
+        top: 134px;
+        left: 10px;
+        
+        
+    }
+    div#section #SEC3 ul{
+        position: relative;
+        top: 70px;
+        display: block;
+        color: rgb(245, 245, 247);
+        left: 30px;
+       }
+    
+    /*---------------------------------------fim-----------------------------------------------------*/
+
+
+
+    /*---------------------------------------section craque------------------------------------------*/
+    div#craque #craque1 h2 {
+        color: rgb(155, 240, 45);
+        top: 14px;
+        left: 550px;
+        font-size: 70px;
+        z-index: 1;
+        
+    }
+    div#craque #craque1 h5 {
+        color: rgb(226, 211, 194);
+        top: -280px;
+        left:790px;
+        font-size: 180px;
+        z-index: 0;
+    }
+    div#craque #craque1 h6 {
+        color: rgb(13, 14, 14);
+        top: 100px;
+        left:720px;
+        font-size: 17px;
+        z-index: 1;
+        
+    }
+
+     
+       div#section #SEC3 ul h4 {
+    
+    font-size: 25px;
+       }
+     /*---------------------------------------section-------------------------------------------------*/
+
+
+
+
+     /*---------------------------------------TODAS CLASSES-------------------------------------------------*/
+    
+     /*TITULOS DAS SEÇOES E H1*/
+     .h3{
+        position: absolute;
+        color: aliceblue;
+        font-size: 30px;
+        text-shadow:gold 1px 1px 6px;
+        z-index: 1;
+    }
+                                   
+    /*LISTAS DE ARTILHEIRO E ASSISTENCIAS*/
+    .SEC1{
+    margin: auto;
+    background-color: rgb(161, 161, 187);
+    width:290px;
+    height: 400px;
+    
+}
+     /*CLASS PARA MINIATURAS DAS PROPAGNDAS*/
+    .miniarte{
+    width: 50px;
+}
+
+/*---------------------------------------FIM-------------------------------------------------*/
+
+
+
+
+
+
+/*---------------------------------------craque-------------------------------------------------*/
+div#craque{
+width: 890px;
+height: 200px;
+background-image:url(./imgens/SEC4.jpg) ;
+margin: auto;
+margin-top: 10px;
+}
+
+div#craque{
+    position: relative;
+    border: 1px solid white;
+}
+
+div#craque1 h3 {
+    position: relative;
+    top: -30px;
+    left: 560px;
+  }
+div#craque img#camisa {
+    position: absolute;
+    top: 17px;
+    left: 310px;
+    width: 200px;
+}
+
+div#compre1 h3{
+    color: balck;
+    left: 320px;
+}
+/*---------------------------------------FIM-------------------------------------------------*/
+
+
+
+
+
+/*-----------------------------------colaboradores--------------------------------------------*/
+
+  div#colaboradores1 {
+    position: relative;
+    width: 300px;
+top: -70px;
+    
+}
+div#colaboradores1 h3 {
+    
+    top: 30px;
+    left: 9px;
+    
+}
+div#colaboradores1 {
+    display:grid;
+    
+    position: relative;
+    top: 15px;
+    left: 10px;
+    
+}
+
+
+div#colaboradores {
+    position: relative;
+    top: -110px;
+    left:7px;
+  }
+
+div#colaboradores #miniarte4 {
+    position: relative;
+    top: 7px;
+    width: 60px;
+  }
+
+  div#colaboradores #miniarte2 {
+    position: relative;
+    top: -4px;
+    
+  }
+  div#colaboradores1 #master{
+    position: relative;
+    top: -109px;
+    width: 230px;
+    height: 110px;
+    left: 30px;
+    
+  }
+  div#redes1 {
+    width: 900px;
+    height: 100px;
+    position: relative;
+   color: rgb(22, 23, 87);
+   top: -80px;
+}
+
+ div#redes1 h4{
+     position: relative;
+    color: rgb(233, 233, 241);
+    top: 15px;
+    left: 70px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(13, 44, 6);
+}
+div#redes {
+    position: relative;
+    left: 580px;
+    top: -70px;
+}
+.redes{
+    position: relative;
+    width: 60px;
+}
