@@ -99,14 +99,18 @@ font-size: 25px;
      /*-----------------------------------------------------SEÇÃO 2---------------------------------*/
 
    div#section #SEC2{
-    background-image: url(./imgens/SEC2.jpg);
+    
+    background-image: url();
     width: 310px;
    }
+
    div#section #SEC2 img {
-    top: -165px;
-    left: 68px;
     position: relative;
-    width: 60px;    
+    top: 0px;
+    left: 1px;
+    position: relative;
+    width: 310px;
+    height: 400px;    
    }
 
    div#section #SEC2 img#rival {
