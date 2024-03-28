@@ -23,34 +23,34 @@ header h1{
 img#simbolo{
     display: flex;
     width: 230px;
-    height: 250px;
+    height: 230px;
     left:5px;
     top: -20px;
     filter: drop-shadow(1px 1px 0px #dcb805);
 } /*-------------------------------simbolo champions */
 #frase1{
     position: relative;
-    top: -250px;
+    top: -240px;
     left: 234px;
 }
 
 img#monstro{
     position: relative;
-    top: -190px;
+    top: -170px;
     width: 220px;
     height: 150px;
     left: 715px;
 }
 img#monstro2{
     position: relative;
-    top: -190px;
+    top: -170px;
     width: 150px;
     height: 150px;
     left: 430px;
 }
 img#monstro3{
     position: relative;
-    top: -180px;
+    top: -160px;
     width: 190px;
     height: 150px;
     left: 140px;
@@ -76,7 +76,7 @@ img#monstro3{
 }/*--------------------------------------------------------------icono raizes*/
 
 #figure1 img{     
-    top: -230px;
+    top: -210px;
     left:170px;
     margin: 20px;
 }/*-------------------------------------------------------------DIVI DOS TIMES------------*/
