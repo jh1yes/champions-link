@@ -351,3 +351,445 @@ div#redes {
     position: relative;
     width: 60px;
 }
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+@media (max-width:450px ) {
+    div#interface {
+        position: relative;
+        margin: auto;
+    background-color: black;
+    border: 1px solid gold;
+        width: 400px;
+        height: 1600px;
+    }
+    
+
+    /*---------------------------------------CABÇARIO-------------------------------------------------*/
+header{
+    position: relative;
+    width: 400px;
+    height: 80px;
+    top: -20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    list-style-type:none;
+   }
+   ul h1{
+   position: relative;
+   left: -320px;
+   color: rgb(236, 14, 44);
+   font-size: 33px;
+   text-shadow:gold 1px 1px 6px;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(253, 252, 252);
+}
+/*------------------------------------imagens do logo cabeçalho--------------------------*/
+ul img#IMGlogo {
+    position: relative;
+    top:1px ;
+    left:-160px ;
+    width: 70px;
+    margin-left: -35px;
+}
+ img#mascote {
+    position: relative;
+    left: -539px;
+    height:80px;
+    width: 110px;
+}
+/*----------------------------------------fim----------------------------------------------*/
+   
+/*---------------------------------------foto time-------------------------------------------------*/
+
+div#foto1 {
+    position: relative;
+    left: 0px;
+    width: 900px;
+    height: 400px;
+    margin-top: 0px;
+}
+div#foto1 img {
+    position: relative;
+    left: 0px;
+    width: 400px;
+    height: 200px;
+    top: -19px;
+}
+
+/*---------------------------------------section-------------------------------------------------*/
+div#section{
+    margin-top: 5px;
+    position: relative;
+    width: 900px;
+    display: flex;
+    }
+  /*--------------------------------------- SEÇão 1----------------------------------*/
+       
+   div#section #SEC1{
+    position:absolute;
+    top: -220px;
+    left: 3px;
+    width:196px;
+    background-image: url(./imgens/Responsivo/SEC1.jpg);
+    border-radius: 10px;
+   }
+   div#section #SEC1 h3{
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+   }
+   
+   div#section #SEC1 ul{
+    position: relative;
+    top: 70px;
+    display: block;
+    color: rgb(221, 241, 4);
+    left: -35px;
+   }
+   div#section #SEC1 ul h4 {
+
+font-size: 25px;
+   }
+   /*---------------------------------------fim-------------------------------------------------*/
+
+
+
+
+
+     /*-----------------------------   FLY -SEÇÃO 2---------------------------------*/
+
+   div#section #SEC2{
+    position: relative;
+    left: 0px;
+    width: 310px;
+    height: 400px;
+    top: 10px;
+   }
+
+   div#section #SEC2 img {
+    position: relative;
+    top: 190px;
+    left: 10px;
+    position: relative;
+    width:380px;
+    height: 420px; 
+    border-radius: 10px;
+   }
+
+
+   div#section #SEC2 h3{
+    color: rgb(238, 242, 247);
+    left: 370px;
+    top: -20px;
+   }
+  div#section #SEC2 h4{
+    position: relative;
+    top: 20px;
+    text-align: center;
+   }
+   div#section #SEC2 h5{
+    color: rgb(203, 233, 199);
+    position: relative;
+    top: 90px;
+    font-size: 40PX;
+    text-align: center;
+    text-shadow:rgba(20, 20, 20, 0.836) 1px 1px 6px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+   }
+   /*-----------------------------------final--------------------------------------------------------*/
+   
+
+
+
+
+   /*---------------------------------------section3 ASSISTENCIAS -------------------------------------------------*/
+   div#section #SEC3{
+    position: relative;
+    top: -220px;
+    left: -305px;
+    background-image: url(./imgens/SEC3.jpg);
+    width: 196px;
+    border-radius: 10px;
+   }
+   
+   div#section #SEC3 h3{
+    left: 30px;
+    top: 10px;
+    font-size: 20px;
+   }
+
+   #SEC3 li{
+    position: relative;
+    left: -60px;
+    top: px;
+    font-size: 20px;
+    color: aliceblue;
+   }
+ 
+   div#craque #colaboradores h3 {
+        top: 134px;
+        left: 10px;
+        
+        
+    }
+
+    /*---------------------------------------fim-----------------------------------------------------*/
+
+
+
+    /*---------------------------------------section craque------------------------------------------*/
+   div#craque{
+   position: relative;
+   top: 230px;
+
+   }
+   
+   
+    div#craque #craque1 h2 {
+        position: absolute;
+        color: rgb(240, 17, 17);
+        top: 184px;
+        left: 30px;
+        font-size: 70px;
+        z-index: 1;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: rgb(234, 233, 243);
+        
+    }
+    div#craque #craque1 h5 {
+        position: absolute;
+        color: rgb(226, 211, 194);
+        top: -110px;
+        left:250px;
+        font-size: 180px;
+        z-index: 0;
+    }
+    div#craque #craque1 h6 {
+        position: absolute;
+        color: rgb(24, 23, 23);
+        top: 270px;
+        left:120px;
+        font-size: 17px;
+        z-index: 1;
+        
+    }
+
+     div#section #SEC3 ul{
+        position: relative;
+        top: 70px;
+        display: block;
+        color: rgb(170, 204, 221);
+        left: 30px;
+       }
+       div#section #SEC3 ul h4 {
+    
+    font-size: 25px;
+       }
+     /*---------------------------------------section-------------------------------------------------*/
+
+
+
+
+     /*---------------------------------------TODAS CLASSES-------------------------------------------------*/
+    
+     /*TITULOS DAS SEÇOES E H1*/
+     .h3{
+        position: absolute;
+        color: aliceblue;
+        font-size: 30px;
+        text-shadow:gold 1px 1px 6px;
+        z-index: 1;
+    }
+                                   
+    /*LISTAS DE ARTILHEIRO E ASSISTENCIAS*/
+    .SEC1{
+    margin: auto;
+    background-color: rgb(161, 161, 187);
+    width:290px;
+    height: 400px;
+    
+}
+     /*CLASS PARA MINIATURAS DAS PROPAGNDAS*/
+    .miniarte{
+    width: 20px;
+}
+
+/*---------------------------------------FIM-------------------------------------------------*/
+
+
+
+
+
+
+/*---------------------------------------craque-------------------------------------------------*/
+div#craque{
+width: 400px;
+height: 200px;
+
+margin: auto;
+margin-top: 10px;
+}
+
+
+div#craque{
+    position: relative;
+    border: 1px solid white;
+}
+
+div#craque1 h3 {
+    position: relative;
+    top: 170px;
+    left: 20px;
+    
+  }/*      ------------------craque da rodada------------------------------*/
+div#craque img#camisa {
+    position: absolute;
+    top: -40px;
+    left: 310px;
+    width: 250px;
+}
+
+div#compre1 h3{
+    color: balck;
+    left: 320px;
+}
+/*---------------------------------------FIM-------------------------------------------------*/
+
+
+
+
+
+/*-----------------------------------colaboradores--------------------------------------------*/
+
+  div#colaboradores1 {
+    position: relative;
+    width: 300px;
+top: -70px;
+    
+}
+div#colaboradores1 h3 {
+    
+    top: 30px;
+    left: 9px;
+    
+}
+div#colaboradores1 {
+    display:grid;
+    position: relative;
+    top: 15px;
+    left: 5px;
+    
+}
+div#colaboradores1 img{
+    left: 0px;
+    top: 0px;
+}
+
+div#colaboradores {
+    position: relative;
+    top: -110px;
+    left:7px;
+  }
+
+div#colaboradores #miniarte4 {
+    position: relative;
+    top: 4px;
+    width: 25px;
+  } /*------------------------------propaganda lavagem uniforme --------------*/
+
+  div#colaboradores #miniarte {
+    position: relative;
+    top: -0px;
+      }
+
+  div#colaboradores #miniarte2 {
+    position: relative;
+    top: -0px;
+      }
+      div#colaboradores #miniarte3 {
+        position: relative;
+        top: -0px;
+      }
+
+  div#colaboradores1 #master{
+    position: relative;
+    top: -109px;
+    width: 130px;
+    height: 50px;
+    left: 0px;
+    
+  }
+
+  div#colaboradores #miniarte2 {
+    position: relative;
+    top: -0px;
+  }
+
+div#camisa img#camisa{
+position: absolute;
+left: 150px;
+
+}
+
+#compre1 h3#compre
+{
+    position: absolute;
+    left: 150px;
+    top: -30px;
+}
+div#colaboradores h3#colaboradores{
+    position: absolute;
+    top: -18px;
+    left: -1px;
+    font-size: 14px;
+}
+
+  div#redes1 {
+    
+    width: 400px;
+    height: 100px;
+    position: relative;
+   color: rgb(22, 23, 87);
+   top: -7px;
+}
+
+ div#redes1 h4{
+     position: relative;
+    color: rgb(201, 201, 223);
+    top: 160px;
+    left: 0px;
+    font-size: 26px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(13, 44, 6);
+}
+div#redes {
+    position: relative;
+    left: 90px;
+    top:130px;
+}
+.redes{
+    position: relative;
+    width: 60px;
+}
+
+}
