@@ -41,9 +41,11 @@ ul{
 /*------------------------------------imagens do logo cabeçalho--------------------------*/
 ul img#IMGlogo {
     position: relative;
-    left: -90px;
-    width: 230px;
-    top: -45px;
+    left: -70px;
+    width: 100px;
+    height: 50;
+    top: 15px;
+
 }
  img#mascote {
     position: relative;
