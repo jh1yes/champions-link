@@ -20,6 +20,10 @@ header h1{
     top: 15px;
 }
 
+
+
+
+
 img#simbolo{
     display: flex;
     width: 230px;
@@ -28,6 +32,13 @@ img#simbolo{
     top: -20px;
     filter: drop-shadow(1px 1px 0px #dcb805);
 } /*-------------------------------simbolo champions */
+
+
+
+
+
+
+
 #frase1{
     position: relative;
     top: -240px;
@@ -149,9 +160,9 @@ background-color: #0d09f436;
     
     /*--------------------SEÇÃO 2 -------------------------------------------------------------*/
 
-    #seção2{
+#seção2{
         display: flex;
-        position: relative;
+        position: relative;    
         left: 5px;
         margin-top: 3px;
       width: 890px;
@@ -338,4 +349,289 @@ background-image: url(./fildset1.jpg);
         width: 120px;
         height: 120px;
         top: -5px;
+    }
+
+
+
+
+
+
+
+
+
+    /*/////////////////////////////////////////////////////////////////////////////////*/
+    @media (max-width:450px ) {
+        div#interface {
+            position: relative;
+            margin: auto;
+        background-color: black;
+        border: 1px solid gold;
+            width: 400px;
+            height: 1600px;
+        }
+   
+    header{
+        width: 400px;
+        height: 120px;
+    }
+
+    header h1{
+        position: relative;
+        left: 112px;
+        font-size: 5px;
+        color: aliceblue;
+        top: 79px;
+    }
+    
+    img#simbolo{
+        position:absolute;
+        width: 120px;
+        height: 100px;
+        left:90px;
+        top: 100px;
+        filter: drop-shadow(1px 1px 0px #dcb805);
+    } /*-------------------------------simbolo champions */
+    
+
+
+    .time {
+        width: 30px;
+        height: 30px;
+    }
+   
+   #figure1{
+    position: relative;
+    box-sizing: border-box;
+   }
+    
+    #figure1 img{     
+        
+        z-index: 1;
+        top: 85px;
+        left:-30px;
+        margin: 3px;
+    }/*-------------------------------------------------------------DIVI DOS TIMES------------*/
+    
+
+
+
+    #frase1{
+        position: relative;
+        top: -240px;
+        left: 234px;
+    }
+    
+
+
+
+    img#monstro{
+        position: relative;
+        top:-26px;
+        width: 120px;
+        height: 100PX;
+        left: -21px;
+        z-index: 0;
+    }
+
+
+    img#monstro3{
+        position: relative;
+        top: -20px;
+        width: 120px;
+        height: 100PX;
+        left: 60px;
+    }
+    div#meio{
+        display: inline;
+    }
+    
+
+    .h2 {
+        font-size: 18px;
+        color: aliceblue;
+    }
+    
+    .fly {
+        position: relative;
+         top: 0px;
+         filter: drop-shadow(6px 0px 10px #1b1a1a);
+         overflow: hidden;
+         width: 400px;
+         height: 607px;
+     background-color: ;
+     }
+     
+     .container{
+         position: relative;
+         top: 104px;
+         position: absolute;
+         display: flex;
+         transition: 0.7s ease-in-out;
+         transform: translateX(0);
+         
+     }
+     
+     img{
+        position: relative;
+         margin-top: -100px;
+         width: 370px;
+         height: 487px;
+     }
+     
+     
+     #seção1 {
+        
+         display: flexbox;
+         position: relative;
+         margin: auto;
+         width:490px;
+         height: 500px;
+         background-color: rgb(240, 248, 255);
+     
+     }
+     
+
+
+
+     #noticias{
+        
+         position: absolute;
+         left: px;
+         top: 480px;
+         border: 1px solid #000000;
+         width: 400px;
+         height: 484px;
+         background-image: url(./CAMPO.jpg);
+     } /*----------------------------------------movimenta noticias*/
+     
+
+
+
+     #noticias fieldset{
+         color: #edd609;
+         width: 360px;
+         position: relative;
+         margin-top: 30px;
+         top: -20px;
+         left: px;
+         }
+         
+     #noticias fieldset P{
+     background-color: #0d09f436;
+     }
+         
+     #seção2{
+        display: flex;
+        position: relative;    
+        left: 5px;
+        margin-top: 800px;
+        width: 890px;
+        height: 400px;
+        background-image: url(./imagem\ campo\ seção\ 2.jpg);
+      }
+      .corrid{
+        text-align: center;
+        width: 280px;
+        height: 380px;
+        margin: auto;
+      }
+      #defesa h2,  h4{
+        margin-top: -15px;
+      }
+      #defesa h2{
+
+        text-shadow: black;
+        color: #ded70c;
+      }
+    
+      #desfesa p{
+        margin-top:
+          }
+       img#defesa{
+        display: flex;
+        left: 63px;
+        top: 90px;
+        width: 150px;
+        height: 150px;
+
+       }
+
+      .corrida{
+        background-color: #13131234;
+        width: 280px;
+        height: 380px;
+        margin: auto;
+      }
+      .corrida:hover{
+        background-color: #00000080;
+      }
+      #defesa1{
+        left: 0px;
+        color: #cfcbcb;
+      }
+
+      #defesa1 h3{
+        position: relative;
+        left: -110px;
+        margin-top: -20px;
+      }
+     #defesa1 h3, p {
+        position: relative;
+        left: 10px;
+     }
+     
+    #artilheiro table{
+        background-image: image();
+        display: flexbox;   
+        margin: auto;
+        position: relative;
+        top: 1px;
+        
+        
+    }  
+    #artilheiro table th,tr,p{
+        margin-top: 10px;
+        text-align: left;
+       
+         
+     }
+     #parada table{
+        
+        display: flexbox;   
+         margin: auto;
+         position: relative;
+         
+         
+     }
+     #parada table th,tr p{
+        margin-top: 10px;
+        text-align: left; 
+        color: rgb(238, 241, 9);            
+     }
+
+
+     #artilheiro h3{
+        color: #cfcbcb;
+        display: flex;
+        justify-content: center;
+     }
+     #parada h3{
+        position: relative;
+        color: #c9c5c5;
+        display: flex;
+        justify-content: center;
+        
+     }
+     #imgartilha {
+        position: relative;
+        top: -60px;
+        width: 280px;
+         z-index: 0;
+     } 
+
+
+
+
+
+
     }
