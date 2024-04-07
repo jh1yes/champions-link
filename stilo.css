@@ -365,8 +365,7 @@ background-image: url(./fildset1.jpg);
             position: relative;
             margin: auto;
         background-color: black;
-        border: 1px solid gold;
-            width: 400px;
+                    width: 400px;
             height: 1600px;
         }
    
@@ -377,25 +376,25 @@ background-image: url(./fildset1.jpg);
 
     header h1{
         position: relative;
-        left: 112px;
+        left: 162px;
         font-size: 5px;
         color: aliceblue;
-        top: 79px;
+        top: 101px;
     }
     
     img#simbolo{
         position:absolute;
         width: 120px;
         height: 100px;
-        left:90px;
-        top: 100px;
+        left:140px;
+        top: 110px;
         filter: drop-shadow(1px 1px 0px #dcb805);
     } /*-------------------------------simbolo champions */
     
 
 
     .time {
-        width: 30px;
+        width: 35px;
         height: 30px;
     }
    
@@ -408,9 +407,9 @@ background-image: url(./fildset1.jpg);
         
         z-index: 1;
         top: 85px;
-        left:-30px;
+        left:5px;
         margin: 3px;
-    }/*-------------------------------------------------------------DIVI DOS TIMES------------*/
+    }/*-----------------------------DIVI DOS TIMES------------*/
     
 
 
@@ -439,7 +438,7 @@ background-image: url(./fildset1.jpg);
         top: -20px;
         width: 120px;
         height: 100PX;
-        left: 60px;
+        left: 150px;
     }
     div#meio{
         display: inline;
@@ -453,12 +452,14 @@ background-image: url(./fildset1.jpg);
     
     .fly {
         position: relative;
-         top: 0px;
+         top: 10px;
          filter: drop-shadow(6px 0px 10px #1b1a1a);
          overflow: hidden;
-         width: 400px;
-         height: 607px;
-     background-color: ;
+         width: 380px;
+         height: 490px;
+         left: 10px;
+     border: 1px solid black;
+     border-radius: 10px;
      }
      
      .container{
@@ -473,8 +474,8 @@ background-image: url(./fildset1.jpg);
      
      img{
         position: relative;
-         margin-top: -100px;
-         width: 370px;
+        margin-top: -110px;
+         width: 380px;
          height: 487px;
      }
      
@@ -497,7 +498,7 @@ background-image: url(./fildset1.jpg);
         
          position: absolute;
          left: px;
-         top: 480px;
+         top: 500px;
          border: 1px solid #000000;
          width: 400px;
          height: 484px;
