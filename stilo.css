@@ -102,19 +102,20 @@ img#monstro3{
    
 }
 .fly {
-   position: relative;
-    top: 0px;
-    filter: drop-shadow(6px 0px 10px #1b1a1a);
-    overflow: hidden;
-    width: 380px;
-    height: 607px;
-background-color: ;
-}
+    position: relative;
+     top: 10px;
+     filter: drop-shadow(6px 0px 10px #1b1a1a);
+     overflow: hidden;
+     width: 380px;
+     height: 490px;
+     left: 0px;
+ border: 1px solid black;
+ border-radius: 10px;
+ }
 
 .container{
     position: relative;
     top: 104px;
-    position: absolute;
     display: flex;
     transition: 0.7s ease-in-out;
     transform: translateX(0);
@@ -459,7 +460,7 @@ background-image: url(./fildset1.jpg);
          top: 10px;
          filter: drop-shadow(6px 0px 10px #1b1a1a);
          overflow: hidden;
-         width: 400px;
+         width:400px;
          height: 490px;
          left: 0px;
      border: 1px solid black;
@@ -479,7 +480,7 @@ background-image: url(./fildset1.jpg);
      img{
         position: relative;
         margin-top: -110px;
-         width: 380px;
+         width: 400px;
          height: 487px;
      }
      
