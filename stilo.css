@@ -396,7 +396,7 @@ background-image: url(./fildset1.jpg);
         left: 40px;
         top: 200px;
         z-index: 1;
-        top: 580px;
+        top: 579px;
        
     }
     
@@ -469,15 +469,15 @@ background-image: url(./fildset1.jpg);
     }
     
     .fly {
-        position: relative;
+         position: relative;
          top: 10px;
          filter: drop-shadow(6px 0px 10px #1b1a1a);
          overflow: hidden;
          width:400px;
          height: 490px;
          left: 0px;
-     border: 1px solid black;
-     border-radius: 10px;
+         border: 1px solid black;
+         border-radius: 10px;
      }
      
      .container{
