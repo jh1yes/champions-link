@@ -20,9 +20,11 @@ header h1{
     top: 15px;
 }
 
-
-
-
+#interface audio{
+    position: absolute;
+    left: 310px;
+    top: 200px;
+}
 
 img#simbolo{
     display: flex;
