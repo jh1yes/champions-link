@@ -385,7 +385,11 @@ div#redes {
 
 
 
-@media (max-width:450px ) {
+@media (max-width:450px ) 
+
+{
+
+
     div#interface {
         position: relative;
         margin: auto;
@@ -407,7 +411,7 @@ header{
 header a{
     position: absolute;
     color: aliceblue;
-    left: 170px;
+    left: 120px;
     top: -10px;
 }
 
@@ -418,6 +422,7 @@ ul{
     list-style-type:none;
    }
    ul h1{
+    top: 10px;
    position: relative;
    left: -320px;
    color: rgb(236, 14, 44);
