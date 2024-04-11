@@ -389,6 +389,16 @@ background-image: url(./fildset1.jpg);
         color: aliceblue;
         top: 101px;
     }
+
+
+    #interface audio{
+        position: absolute;
+        left: 40px;
+        top: 200px;
+        z-index: 1;
+        top: 580px;
+       
+    }
     
     img#simbolo{
         position:absolute;
@@ -493,7 +503,7 @@ background-image: url(./fildset1.jpg);
          display: flexbox;
          position: relative;
          margin: auto;
-         width:490px;
+         width:400px;
          height: 500px;
          background-color: rgb(240, 248, 255);
      
@@ -505,7 +515,7 @@ background-image: url(./fildset1.jpg);
      #noticias{
         
          position: absolute;
-         left: px;
+
          top: 500px;
          border: 1px solid #000000;
          width: 400px;
@@ -520,7 +530,7 @@ background-image: url(./fildset1.jpg);
          color: #edd609;
          width: 360px;
          position: relative;
-         margin-top: 30px;
+         margin-top: 50px;
          top: -20px;
          left: px;
          }
