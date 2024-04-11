@@ -62,10 +62,14 @@ img#monstro2{
 img#monstro3{
     position: relative;
     top: -160px;
-    width: 190px;
+    width: 200px;
     height: 150px;
-    left: 140px;
+    left: 380px;
 }
+
+
+
+
 
 
 .h2 {
@@ -364,8 +368,8 @@ background-image: url(./fildset1.jpg);
         div#interface {
             position: relative;
             margin: auto;
-        background-color: black;
-                    width: 400px;
+            background-color: black;
+            width: 400px;
             height: 1600px;
         }
    
@@ -455,9 +459,9 @@ background-image: url(./fildset1.jpg);
          top: 10px;
          filter: drop-shadow(6px 0px 10px #1b1a1a);
          overflow: hidden;
-         width: 380px;
+         width: 400px;
          height: 490px;
-         left: 10px;
+         left: 0px;
      border: 1px solid black;
      border-radius: 10px;
      }
@@ -524,36 +528,38 @@ background-image: url(./fildset1.jpg);
      #seção2{
         display: flex;
         position: relative;    
-        left: 5px;
-        margin-top: 800px;
-        width: 890px;
-        height: 400px;
-        background-image: url(./imagem\ campo\ seção\ 2.jpg);
+        left: 0px;
+        margin-top:428px;
+        width:403px;
+        height: 300px;
+        background-image: url(./imagem\ campo\ seção\ 3.jpg);
       }
+
       .corrid{
         text-align: center;
         width: 280px;
         height: 380px;
         margin: auto;
       }
+
       #defesa h2,  h4{
         margin-top: -15px;
       }
-      #defesa h2{
 
+
+      #defesa h3{
         text-shadow: black;
-        color: #ded70c;
-      }
+        color: #e3dc1a;
+      } /*---------------------------nome do time defesa*/
     
-      #desfesa p{
-        margin-top:
-          }
+      
+
        img#defesa{
         display: flex;
-        left: 63px;
-        top: 90px;
-        width: 150px;
-        height: 150px;
+        left: 18px;
+        top: 130px;
+        width: 100px;
+        height: 100px;
 
        }
 
@@ -605,6 +611,9 @@ background-image: url(./fildset1.jpg);
          
      }
      #parada table th,tr p{
+        position: relative;
+        left: 1px;
+        font-size: 10px;
         margin-top: 10px;
         text-align: left; 
         color: rgb(238, 241, 9);            
@@ -630,6 +639,94 @@ background-image: url(./fildset1.jpg);
          z-index: 0;
      } 
 
+/*---------------------time*/
+
+div#time{
+    width: 400px;
+    height: 250px;
+ }
+ 
+ img#elenco2{
+    display: flex;
+    width: 400px;
+    height: 250px;
+    top: 130px;
+    left: 0px;
+ }
+
+ .elenco1 {
+    position: relative;
+     top: 0px;
+     filter: drop-shadow(6px 0px 10px #1b1a1a);
+     overflow: hidden;
+     width: 400px;
+     height: 300px;
+ 
+ }
+ 
+ .container2{
+     position: absolute;
+     display: flex;
+     transition: 0.7s ease-in-out;
+     transform: translateX(0);
+ }
+ 
+ img{
+    position: relative;
+     margin-top: -125px;
+     width: 400px;
+     height: 487px;
+ }
+
+ /*--------------------SEÇÃO 3*-------------------------------------------------------*/
+ 
+
+
+ #seção3{
+position: relative;
+left: 5px;
+top:-40px;
+background-color: #c9c5c5; 
+width: 400PX;
+height: 350PX;
+}
+
+
+img#boavitória{
+    display: flex;
+    left: 700px;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+}
+fieldset p{
+    display: flex;
+    top: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.fildset{
+    height: 150px;
+}
+#fildset1{
+    color: #c9c5c5;
+background-image: url(./fildset1.jpg);
+}
+#fildset2{
+    background-image: url(./fildset2.jpg);
+}
+legend{
+    color: #000;
+    background-color: #f4f1f1;
+}
+img#fildset2{
+    display: flex;
+    left: 720px;
+    width: 120px;
+    height: 120px;
+    top: -5px;
+}
 
 
 

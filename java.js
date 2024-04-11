@@ -9,7 +9,7 @@ function slider() {
     if(contador > imagens.length - 1) {
         contador = 0;
     }
-    box.style.transform = `translateX(${-contador * 380}px)`;
+    box.style.transform = `translateX(${-contador * 400}px)`;
 }
 
 setInterval(slider, 2000);
@@ -35,7 +35,7 @@ function slider2() {
     if(contador2 > imagens.length - 1) {
         contador2 = 0;
     }
-    box2.style.transform = `translateX(${-contador2 * 890}px)`;
+    box2.style.transform = `translateX(${-contador2 * 400}px)`;
 }
 
 setInterval(slider2, 2000);
