@@ -30,7 +30,7 @@ ul{
    ul h1{
     position: relative;
     top: -50PX;
-    left: -70px;
+    left: -10px;
     color: rgb(19, 216, 85);
     font-size: 105px;
     text-align: center;
@@ -41,9 +41,9 @@ ul{
 /*------------------------------------imagens do logo cabeçalho--------------------------*/
 ul img#IMGlogo {
     position: relative;
-    left: -80px;
-    top: -45px;
-    width: 230PX;
+    left: -30px;
+    top: 10px;
+    width: 110PX;
 }
  img#mascote {
     position: relative;

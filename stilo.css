@@ -1,6 +1,6 @@
 div#interface {
     width: 900px;
-    height: 2000px;
+    height: 2700px;
     background-color: #000000;
     margin: auto;
 }
@@ -359,6 +359,38 @@ background-image: url(./fildset1.jpg);
         top: -5px;
     }
 
+/*--------------------------TABELA---------------------------------------------------------------*/
+   .logoTabela{
+    width: 50px;
+    height: 50px;
+   }
+
+   table#campeonato p{
+    margin-bottom:40px;
+   }
+
+
+#fildTable{
+    position: relative;
+    top: 10px;
+    height:500px;
+}
+table#campeonato {
+    position: relative;
+    top: 30px;
+}
+
+img#imgLink{
+    position: absolute;
+    left:540px;
+    width:300px;
+    height: 380px;
+    top: 130px;
+}
+
+
+
+
 
 
 
@@ -372,9 +404,9 @@ background-image: url(./fildset1.jpg);
         div#interface {
             position: relative;
             margin: auto;
-            background-color: black;
-            width: 400px;
-            height: 1600px;
+            background-color: rgb(10, 9, 9);
+            width: 401px;
+            height: 2600px;
         }
    
     header{
@@ -698,7 +730,7 @@ div#time{
 
  #seção3{
 position: relative;
-left: 5px;
+left: 0px;
 top:-40px;
 background-color: #c9c5c5; 
 width: 400PX;
@@ -721,7 +753,11 @@ fieldset p{
     font-size: 15px;
 }
 .fildset{
+    
     height: 150px;
+    
+
+
 }
 #fildset1{
     color: #c9c5c5;
@@ -741,9 +777,45 @@ img#fildset2{
     height: 120px;
     top: -5px;
 }
+/*--------------------------TABELA---------------------------------------------------------------*/
+.logoTabela{
+    width: 50px;
+    height: 50px;
+   }
+
+   table#campeonato p{
+    margin-bottom:40px;
+    font-size: 10px;
+   }
 
 
+#fildTable{
+    position: relative;
+    top: 10px;
+    height:500px;
+}
+table#campeonato {
+    position: relative;
+    top: 30px;
+}
+
+img#imgLink{
+    position: absolute;
+    left:70px;
+    width:300px;
+    height: 360px;
+    top: 160px;
+    opacity: 0.1;
+}
 
 
+#fildset2 p{
+    width: 350px;
+    background-color: #0acd1a97;
+}
+#fildset1 p{
+    width: 350px;
+    background-color: #0acd1a12;
+}
 
     }
